@@ -71,8 +71,8 @@ alert(/^\d{2}/.test("Pier21")); // dois digitos no inicio
 alert(/^\d{5}-\d{3}$/.test("70294-070")); // ^ ->  inicio
                                         // \d  -> digito
                                         // {}  -> quantidade de digito
-     //verifica se possui 5 digitos no
-     //inicio e 3 no final                                   // -    -> traço
+  //verifica se possui 5 digitos no 
+     //inicio e 3 no final              // -    -> traço
                                         // \d -> digito
                                         // {} -> quantidade
                                         // $ -> final
